@@ -1,0 +1,15 @@
+[package]
+name = "cxx-interop-cv-resize"
+version = "0.1.0"
+authors = ["Rodolfo Castillo Mateluna <rodolfocastillomateluna@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cxx = "1.0"
+structopt = { version = "0.3", default-features = false } 
+
+[build-dependencies]
+cxx-build = "1.0"
+pkg-config = "0.3"

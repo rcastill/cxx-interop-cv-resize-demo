@@ -8,7 +8,6 @@ use structopt::StructOpt;
 
 #[cxx::bridge]
 mod ffi {
-
     unsafe extern "C++" {
         include!("cvresize/include/cvresize.h");
 

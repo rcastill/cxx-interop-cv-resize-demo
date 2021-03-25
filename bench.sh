@@ -1,14 +1,18 @@
 #!/bin/bash
 
 n=$1
-image='/home/rodolfo/dev/xompass/xompass-xm-xlpr/mock/tinta.jpg'
+image="$2"
 w=100
 h=200
 outdir='tmp-bench'
 
-if [ -z "$n" ]; then
-    echo "Usage: $0 n"
+usage() {
+    echo "Usage: $0 n image"
     exit 1
+}
+
+if [ -z "$n" ] || [ -z "$image" ]; then
+    usage
 fi
 
 mkdir -p $outdir

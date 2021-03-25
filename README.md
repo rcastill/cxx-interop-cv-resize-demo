@@ -1,4 +1,4 @@
-# CXX Rust Iterop Demo
+# CXX Rust Interop Demo
 
 [cxx](https://github.com/dtolnay/cxx) is a great Rust library to achieve safer interop with C++. This repository is a PoC (a non-trivial example) demonstrating its capabilities. The library repo has an included demo following the tutorial found at [cxx.rs](https://cxx.rs/). This repo is based on that.
 
